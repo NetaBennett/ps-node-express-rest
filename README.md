@@ -7,6 +7,14 @@ TODO: Write a project description
 ### Install Gulp globally to access CLI
 >> npm install gulp -g
 
+### Install MongoDB
+Get it here: https://www.mongodb.com/download-center#community
+Docs here: https://docs.mongodb.com/manual/
+
+Start Mongo DB: >> ./[install path]/mongod --dbpath <path to data directory>
+
+To connect to DB and run shell cmds: >> ./[install path]/mongo
+
 ### Install dev dependencies
 >> npm install
 

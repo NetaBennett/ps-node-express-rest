@@ -4,7 +4,11 @@ TODO: Write a project description
 
 ## Installation
 
-TODO: Describe the installation process
+### Install Gulp globally to access CLI
+>> npm install gulp -g
+
+### Install dev dependencies
+>> npm install
 
 ## Usage
 

@@ -2,7 +2,7 @@
   "name": "ps-node-express-rest",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/NetaBennett/ps-node-express-rest/issues"
   },
-  "homepage": "https://github.com/NetaBennett/ps-node-express-rest#readme"
+  "homepage": "https://github.com/NetaBennett/ps-node-express-rest#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.1.0"
+  }
 }

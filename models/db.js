@@ -1,6 +1,10 @@
 var mongoose = require('mongoose');
 var Book = require('bookModel');
 var db = mongoose.connect('mongodb://localhost/bookDb');
+//osx install path: /usr/local/var/mongodb
+//osx db path: /data/db
+//osx to run: mongod --dbpath /data/db
+//windows dbPath: ??
 
 
 mongoose.connection.on('connected', function() {

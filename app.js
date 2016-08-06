@@ -1,7 +1,7 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
-var Book = require('./models/bookModel');
+var Book = require('./models/book.model');
 //var db = require('./models/db');
 
 
